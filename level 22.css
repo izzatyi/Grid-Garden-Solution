@@ -1,5 +1,5 @@
-#pond {
-    display: flex;
-    flex-wrap: wrap;
-    align-content:flex-end;
+#garden {
+    display: grid;
+    grid-template-columns: 100px 3em 40%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
   }

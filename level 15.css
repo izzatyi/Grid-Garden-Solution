@@ -1,7 +1,10 @@
-#pond {
-    display: flex;
-}
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
   
-  .red {
-    order: -3;
-}
+  #water {
+    grid-column: 2/6;
+    grid-row: 1/6;
+  }
